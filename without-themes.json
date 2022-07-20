@@ -1,0 +1,30 @@
+{
+  "global": {
+    "spacing": {
+      "scale": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "{spacing.xs} * {spacing.scale}",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "{spacing.sm} * {spacing.scale}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{spacing.md} * {spacing.scale}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{spacing.lg} * {spacing.scale}",
+        "type": "spacing"
+      }
+    }
+  }
+}
